@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My New Project</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Elegance Stitches</div>
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="carousel-container" id="carousel">
+        <div class="carousel-track" id="track">
+          <div class="slide active">
+            <img
+              src="./assets/images/Rectangle 8.png"
+              alt="Tailored Suit"
+              class="slide-bg"
+              style="object-position: top center;"
+            />
+            <div class="slide-content">
+              <h2>Elegance Stitches</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#booking" class="cta-button">Learn More</a>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img
+              src="./assets/images/Rectangle 2.png"
+              alt="traditional"
+              class="slide-bg"
+              style="object-position: top center;"
+            />
+            <div class="slide-content">
+              <h2>Custom Fabrics</h2>
+              <p>Premium quality materials for your perfect fit.</p>
+              <a href="#fabrics" class="cta-button">Learn More</a>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img
+              src="./assets/images/Rectangle9.png"
+              alt="casual"
+              class="slide-bg"
+              style="object-position: top center;"
+            />
+            <div class="slide-content">
+              <h2>Perfect Accessories</h2>
+              <p>Complete your look with our hand-picked accessories.</p>
+              <a href="#accessories" class="cta-button">View Collection</a>
+            </div>
+          </div>
+        </div>
+
+        <button class="nav-btn prev-btn">
+          <svg
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            stroke="currentColor"
+            stroke-width="2"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button class="nav-btn next-btn">
+          <svg
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            stroke="currentColor"
+            stroke-width="2"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="carousel-dots" id="dots-container">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </div>
+
+      <section class="about-section">
+        <div class="about-container">
+          
+          <div class="about-content">
+            <h2 class="about-title">ABOUT US.</h2>
+            
+            <p class="about-text">
+              Lorem ipsum dolor sit amet consectetur. Erat quam vivamus duis sit congue id ipsum iaculis malesuada. Amet ultrices placerat sed nunc nulla eget egestas. Leo in in egestas quis ac. Nisi tortor faucibus egestas urna pretium amet maecenas hendrerit eu.
+            </p>
+            
+            <p class="about-text">
+              In nec in mauris vestibulum ullamcorper id nibh. Urna maecenas interdum lacus semper leo vestibulum sed iaculis diam. Pulvinar hendrerit arcu sed porttitor augue urna ut. Lectus vitae sagittis aliquam sit nulla. Elementum egestas aenean diam turpis mauris tortor arcu senectus lectus.
+            </p>
+      
+            <div class="social-icons">
+              <a href="#" class="icon"><img src="./assets/images/stash_social-facebook-duotone.png" alt=""></a>
+              
+              <a href="#" class="icon"><img src="./assets/images/ion_social-snapchat.png" alt=""></a>
+              
+              <a href="#" class="icon"><img src="./assets/images/foundation_social-pinterest.png" alt=""></a>
+              
+              <a href="#" class="icon"><img src="./assets/images/mingcute_social-x-fill.png"  alt=""></a>
+            </div>
+          </div>
+      
+          <div class="about-image">
+            <img src="./assets/images/about-bg.png" alt="Tailored Suit Detail">
+          </div>
+      
+        </div>
+      </section>
+      </div>
+
+      <section id="services" class="services-section">
+        <h2>WHAT WE DO</h2>
+        <div class="center-text"><p id="center-text">Lorem ipsum dolor sit amet consectetur. At sodales sed lectus dignissim sed eu lacinia accumsan nullam. Malesuada pulvinar turpis netus volutpat sed quis. Congue nascetur hac ante tristique vitae nisl sit. Enim leo ut aliquam sed.</p ></div>
+        <div class="services-container">
+          <div class="service-card">
+            <div class="products"><img src="./assets/images/service1.png" alt="Tailored suits"></div>
+            <h3>Suits</h3>
+            <p>
+              Expertly tailored suits for formal occasions.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="products"><img src="./assets/images/service2.png" alt="corporate-wears"></div>
+            <h3>Corporate Wears</h3>
+            <p>
+              Custom-fitted corporate shirts and pants.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="products"><img src="./assets/images/service3.png" alt="Trads"></div>
+            <h3>Traditional Attires</h3>
+            <p>
+              Carefully crafted traditional outfit.
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="center-text"><p id="center-text1">Lorem ipsum dolor sit amet consectetur. At sodales sed lectus dignissim sed eu lacinia accumsan nullam. Malesuada pulvinar turpis netus volutpat sed quis. Congue nascetur hac ante tristique vitae nisl sit. Enim leo ut aliquam sed.</p ></div>
+          <a href=""><button id="contact">Contact Us</button></a>
+      </section>
+      
+      <div class="client-card">
+  
+        <div class="card-left-image">
+          <img src="./assets/images/review 1.png" alt="Suit Detail">
+        </div>
+      
+        <div class="card-right-panel">
+          
+          <h2 class="panel-title">OUR CLIENT</h2>
+      
+          <div class="review-window">
+            <div class="review-track" id="reviewTrack">
+              
+              <div class="review-slide">
+                <img src="./assets/images/Ellipse 1.png" class="avatar" alt="Client 1">
+                <p class="review-text">
+                  "Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum amet sit lectus etiam curabitur vulputate aliquet suscipit."
+                </p>
+              </div>
+      
+              <div class="review-slide">
+                <img src="./assets/images/Ellipse 2.png" class="avatar" alt="Client 2">
+                <p class="review-text">
+                  "Elementum egestas aenean diam turpis mauris tortor arcu senectus lectus. Nunc convallis tortor nunc tellus."
+                </p>
+              </div>
+
+              <div class="review-slide">
+                <img src="./assets/images/Ellipse 3.png" class="avatar" alt="Client 3">
+                <p class="review-text">
+                  "Elementum egestas aenean diam turpis mauris tortor arcu senectus lectus. Nunc convallis tortor nunc tellus."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="dots-container" id="masterDots">
+            <span class="dot active"></span> <span class="dot"></span>        <span class="dot"></span>        </div>
+        </div>
+      </div>
+
+      <section class="contact-card">
+        <div class="contact-overlay">
+          
+          <h2 class="contact-title">GET IN TOUCH</h2>
+      
+          <div class="contact-columns">
+            
+            <div class="contact-details">
+              
+              <div class="detail-item">
+                <div class="icon">
+                  <img src="./assets/images/fluent_contact-card-20-regular.png" alt="">
+                </div>
+                <p id="the_card">2119 Silver City,<br>Columbus, Ohio. PO 20192</p>
+              </div>
+      
+              <div class="detail-item">
+                <div class="icon">
+                  <img src="./assets/images/tabler_phone.png" alt="">
+                </div>
+                <p>+99 456 768 932</p>
+              </div>
+      
+              <div class="detail-item">
+                
+                <div class="icon">
+                  <img src="./assets/images/entypo_reply.png" alt="">
+                </div>
+                <p>elegantstices@gmail.com</p>
+              </div>
+            </div>
+      
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" class="form-field">
+              <input type="email" placeholder="Your Email" class="form-field">
+              <textarea placeholder="Your Text" class="form-field textarea"></textarea>
+              <button type="submit" class="contact-submit">Submit</button>
+            </form>
+      
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Quipster. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
