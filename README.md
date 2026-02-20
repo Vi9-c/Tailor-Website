@@ -1,6 +1,6 @@
 # Project Name: Professional Tailor Website
-**Client:** (Name of your Tailor)
-**Developer:** (Your Name)
+**Client:** Elegance Stiches
+**Developer:** Quipster
 **Status:** In Progress
 
 ## 1. Project Goal
